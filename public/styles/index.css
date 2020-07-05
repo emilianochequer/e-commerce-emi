@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.oi {
+  font-size: 30px;
+}
+
+.action-buttons button {
+  margin-right: 6px;
+}
+
+.nav-link,
+.navbar-text {
+  white-space: nowrap;
+}
+
+.rating-wrap {
+  display: inline-block !important;
+  float: none !important;
+}
+
+.sidebar-sticky h5 {
+  margin: 10px 0;
+  font-weight: 400;
+}
+
+.sidebar-sticky button {
+  cursor: pointer;
+}

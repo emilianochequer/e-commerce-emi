@@ -1,0 +1,23 @@
+.product-container {
+  max-width: 800px;
+}
+
+.product-container .price {
+  font-weight: bolder;
+}
+
+.product-container h1 {
+  font-weight: 900;
+}
+
+.product-container .img-fluid {
+  /* height: 100%; */
+}
+
+/* .categories-badge {
+  margin: 0;
+  padding: 0;
+} */
+.categories-badge span {
+  margin-right: 5px;
+}

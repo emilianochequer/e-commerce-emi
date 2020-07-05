@@ -1,0 +1,24 @@
+version: '2'
+services: 
+  pg:
+    image: postgres:alpine
+    ports: 
+      - '5432:5432'
+    environment:
+      POSTGRES_PASSWORD: example
+      POSTGRES_USER: lostopos
+      POSTGRES_DB: ecommerce
+  web: 
+    build: 
+      context: ./
+    command: npm start
+    volumes: 
+      - ./client:/usr/e-commerce/client
+      - ./public:/usr/e-commerce/public
+      - ./server:/usr/e-commerce/server
+    ports: 
+      - '4000:4000'
+    links:
+      - pg:pg
+    depends_on:
+      - pg

@@ -1,0 +1,35 @@
+.card img {
+  padding: 0 25px;
+}
+.containerSP {
+  position: relative;
+  width: 300px;
+}
+
+/* Make the image responsive */
+.containerSP img {
+  width: 100%;
+  height: auto;
+}
+
+/* Style the button and place it in the middle of the container/image */
+.containerSP .btn .btnSP {
+  position: absolute;
+  top: 86%;
+  left: 79%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #4286f4;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  height: 44px;
+  width: 63px;
+  border: none;
+  cursor: pointer;
+  border-radius: 75%;
+}
+
+.fa-plus {
+  padding-left: -2px;
+}
